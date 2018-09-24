@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 # Custom JDCTeam packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
-    Jelly \
+    #Jelly \
     LatinIME \
     Launcher3 \
     LiveWallpapers \
