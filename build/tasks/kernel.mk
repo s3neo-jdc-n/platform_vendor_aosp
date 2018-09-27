@@ -209,7 +209,8 @@ KERNEL_MODULES_INSTALL := system
 KERNEL_MODULES_OUT := $(TARGET_OUT)/lib/modules
 endif
 
-#KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
+# set for compiling with linaro (1/2)
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
 
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(strip $(TARGET_KERNEL_CROSS_COMPILE_PREFIX))
 ifneq ($(TARGET_KERNEL_CROSS_COMPILE_PREFIX),)
@@ -222,7 +223,8 @@ else ifeq ($(KERNEL_ARCH),x86)
 KERNEL_TOOLCHAIN_PREFIX ?= x86_64-linux-androidkernel-
 endif
 
-#KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/aarch64-linux-android-linaro-7.3.1/bin
+# set for compiling with linaro (2/2)
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/vendor/aosp/build/tasks/gcc-linaro-7.3.1/bin
 
 ifeq ($(KERNEL_TOOLCHAIN),)
 KERNEL_TOOLCHAIN_PATH := $(KERNEL_TOOLCHAIN_PREFIX)
