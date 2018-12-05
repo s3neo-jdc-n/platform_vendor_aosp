@@ -51,11 +51,11 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     LiveWallpapers \
     LiveWallpapersPicker \
-    OTAUpdates \
+    #OTAUpdates \
     Stk \
     Substratum \
     ThemeInterfacer \
-    Turbo
+    #Turbo
 
 # Extra tools
 PRODUCT_PACKAGES += \

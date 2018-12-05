@@ -1,43 +1,87 @@
-# Jflte DevCon Team
-### Developers & Testers
-[B--B](https://github.com/B--B) - Lead
+### Changelog PhilSmith31
 
-[AntaresOne](http://github.com/AntaresOne) - Developer, git mantainer, scripting, tester
+### 27.11.2018
+* Kernel:
+	* fixed almost all warnings spotted by gnu 8.2.1 toolchain
+	* Still compiled with linaro 7.3.1 toolchain since 8.2.1 doesn't boot for now
+	* Merged in 3.18.126 and 3.18.127 from linux-stable
 
-[Alucard24](http://github.com/Alucard24) - Kernel Developer
+### 21.11.2018
+* Kernel:
+	* Upstream to 3.18.125 linux-stable
+	* Updated qcacld-2.0 from CAF (wlan-driver)
 
-[MatthewBooth](http://github.com/MatthewBooth) - OTA Updates, git maintainer, scripting, tester
+### 09.11.2018
+* Kernel:
+	* Fixed *each and every* compiler warning spotted by Linaro toolchain 7.3.1.
+	* Reverted the CAF changes that resulted in worse standby drain
+		
+### 08.11.2018
+* ROM:
+	* November 2018 security bulletins
+	* Updated vulnerable externals (Skia, etc)
+	* Updated chromium-based webviews to 69.0.3497.109
+	* Reverted vendor changes
+* Kernel:
+	* Enabled KCAL userspace control
+	* Merged all changes from LA.UM.5.5.r1-09000-8x96.0 not requiring rebasing to caf, so we can keep getting our upstreams from linux-stable (still on latest 3.18.124)
+		many changes and updates (msm, camera, gpu, video, touchscreen-fw, cpu-related, sound, power, etc ...)
+* General:
+	* Minimal required firmware version is back to 7.10.12.
+	
+### 03.11.2018
+* ROM
+	* Build removed due to lag resulting from vendor changes.
 
-[CheckYourScreen](https://github.com/CheckYourScreen) - Developer, git maintainer, scripting, tester
+### 17.10.2018
+* ROM & Kernel
+	* October 2018 security bulletins
+	* Fixed Substratum issues and brought it back as a stock app
+	* Properly set pre-root flag to get fully rid of pre-rooting stuff
+	* Kernel upstream to 3.18.124 Linux-stable
 
-[angelcalibur](https://github.com/angelcalibur) - Tester
+### 27.09.2018 
+* ROM & Kernel
+	* BB-kernel now completely replaced stock kernel (it's just better)
+	* Decoupled platform and kernel compiler to build kernel with latest Linaro 7.3.1 toolchain
+	* Updated Chromium based webviews to latest release
+	* Removed some unnecessary, optional or deprecated stock apps (see latest post for more info)
+	* Kernel upstream to 3.18.123 Linux-stable
+	* Clean flash very recommended!
 
-[smeroni68](https://github.com/smeroni68) - Tester
+### 13.09.2018 
+* B--B-kernel*
+	* Compiled with latest Linaro toolchain 7.3.1
+	* Upstreamed kernel to 3.18.122 Linux-stable
 
-[Jimsilver73](https://github.com/Jimsilver73) - Tester
+### 08.09.2018 
+* ROM
+	* Made a lot of changes that should have been there already in the previous build. Very recommended to use this one now and clean flash.
+	* Security patches till September 2018
+	* Upstreamed kernel to 3.18.121 Linux-stable
 
-[hawkerpaul](https://github.com/hawkerpaul) - Tester, scripting
+### 01.09.2018 
+* B--B kernel
+	* BB kernel now available in OP Downloads section!
+	* Upstreamed to 3.18.120 Linux Stable
+	* Merged all CAF tags up to LA.UM.5.5.r1-06700-8x96.0 (again left out the two newer trouble maker tags)
+	* Reverted bad CAF changes to Camera2 (green lines on otherwise working gcam mods)
 
-[franzyroy](https://github.com/franzyroy) - Tester, cm themer
+### 27.08.2018
+* ROM ----- build removed!
+	* August 2018 AOSP security bulletins
+	* Upstreamed kernel tag by tag from 3.18.31 to 3.18.119 Linux Stable
+	* Merged all CAF tags up to LA.UM.5.5.r1-06700-8x96.0 CAF (there are two later tags, but they make a lot of trouble at the moment. When I figured out what’s wrong, I’ll merge them as well)
+	* Changed default clock to OmniClock
+	* No more pre-rooting
 
-[smstiv](https://github.com/smstiv) - Tester
 
-[side](https://github.com/dkati) - Tester, cm themer, rom maintainer
-
-[javelinanddart](https://github.com/javelinanddart) - Kernel Developer
-
-[srisurya95](https://github.com/srisurya95) - Rom-Kernel Developer
-
-[gadget!](http://forum.xda-developers.com/member.php?u=2026779) - Themer, tester, graphic designer
-
-[MZO9400](https://github.com/MZO9400) - Developer, git mantainer, scripting, tester, OnePlus 2 Mantainer
-
-### Changelog (full)
+### Changelog (full before Phil)
 [AOSP-JF-MM](https://github.com/AOSP-JF-MM) - Project GitHub
 
-### Changelog (short)
+### Roles of participants before my revival below previous changes
 
-#### Ongoing changes...
+### Changelog (short)
 
 #### Stable 10
 * Stock Kernel (Jflte)
@@ -557,3 +601,37 @@
 #### Alpha 1 (20160901)
 
 * Initial public release
+
+# Jflte DevCon Team
+### Developers & Testers
+[B--B](https://github.com/B--B) - Lead
+
+[AntaresOne](http://github.com/AntaresOne) - Developer, git mantainer, scripting, tester
+
+[Alucard24](http://github.com/Alucard24) - Kernel Developer
+
+[MatthewBooth](http://github.com/MatthewBooth) - OTA Updates, git maintainer, scripting, tester
+
+[CheckYourScreen](https://github.com/CheckYourScreen) - Developer, git maintainer, scripting, tester
+
+[angelcalibur](https://github.com/angelcalibur) - Tester
+
+[smeroni68](https://github.com/smeroni68) - Tester
+
+[Jimsilver73](https://github.com/Jimsilver73) - Tester
+
+[hawkerpaul](https://github.com/hawkerpaul) - Tester, scripting
+
+[franzyroy](https://github.com/franzyroy) - Tester, cm themer
+
+[smstiv](https://github.com/smstiv) - Tester
+
+[side](https://github.com/dkati) - Tester, cm themer, rom maintainer
+
+[javelinanddart](https://github.com/javelinanddart) - Kernel Developer
+
+[srisurya95](https://github.com/srisurya95) - Rom-Kernel Developer
+
+[gadget!](http://forum.xda-developers.com/member.php?u=2026779) - Themer, tester, graphic designer
+
+[MZO9400](https://github.com/MZO9400) - Developer, git mantainer, scripting, tester, OnePlus 2 Mantainer
