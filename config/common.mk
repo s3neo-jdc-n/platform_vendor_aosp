@@ -46,16 +46,13 @@ PRODUCT_COPY_FILES += \
 # Custom JDCTeam packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
-    #Jelly \
     LatinIME \
     Launcher3 \
     LiveWallpapers \
     LiveWallpapersPicker \
-    #OTAUpdates \
     Stk \
     Substratum \
-    ThemeInterfacer \
-    #Turbo
+    ThemeInterfacer
 
 # Extra tools
 PRODUCT_PACKAGES += \
