@@ -4,6 +4,15 @@
 * ROM:
     * December 2018 security updates
     * Moved externals to CAF (tag LA.UM.5.5.r1-09000-8x96.0)
+        * android-clat
+        * apache-http
+        * boringssl
+        * libjpeg-turbo
+        * libunwind_llvm
+        * tinyalsa
+        * tinycompress		
+        * tinyxml2
+        * vulkan-validation-layers
         * bzip2
         * gemmlowp
         * iproute2
