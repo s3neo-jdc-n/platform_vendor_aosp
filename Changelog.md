@@ -1,5 +1,39 @@
 ### Changelog PhilSmith31
 
+### 10.12.2018
+* ROM:
+    * December 2018 security updates
+    * Moved externals to CAF (tag LA.UM.5.5.r1-09000-8x96.0)
+        * android-clat
+        * apache-http
+        * boringssl
+        * libjpeg-turbo
+        * libunwind_llvm
+        * tinyalsa
+        * tinycompress		
+        * tinyxml2
+        * vulkan-validation-layers
+        * bzip2
+        * gemmlowp
+        * iproute2
+        * ipsec-tools
+        * jemalloc		
+        * libchrome		
+        * libvpx		
+        * lzma
+        * okhttp
+        * sqlite
+        * wpa_supplicant_8 
+        * zlib
+    * Synced many other repos with LOS
+    * Kicked out MusicFX, STweaks, Turbo	
+    * Adjusted brightness slider range to make it more fine-grained
+    * Added default charging lights (red=low, yellow=charging, green=90%+, blue=100%)
+    * Settings->about: Added my changelog	
+
+* Kernel:
+	* Upstream to 3.18.128 linux-stable
+
 ### 27.11.2018
 * Kernel:
 	* fixed almost all warnings spotted by gnu 8.2.1 toolchain
