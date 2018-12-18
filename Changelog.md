@@ -1,5 +1,28 @@
 ### Changelog PhilSmith31
 
+### 18.12.2018
+* ROM:
+	* upstreamed / moved to caf tag LA.UM.5.5.r1-09000-8x96.0
+		* Vendors:
+			* opensource/dpm/
+		* HALs:	
+			* audio-caf
+			* camera
+			* display-caf
+			* gps
+			* media-caf
+			* ril-caf
+			* wlan-caf
+	* Updated HALs to android-7.1.2_r36 
+		* broadcom/libbt
+		* libhardware
+		* libhardware_legacy
+		* ril
+	* All other HALs are synced with LOS
+	* Kicked substratum settings menu entry
+* Kernel:
+	* Merged in 3.18.129 and 3.18.130 from linux-stable
+
 ### 10.12.2018
 * ROM:
     * December 2018 security updates
@@ -30,7 +53,6 @@
     * Adjusted brightness slider range to make it more fine-grained
     * Added default charging lights (red=low, yellow=charging, green=90%+, blue=100%)
     * Settings->about: Added my changelog	
-
 * Kernel:
 	* Upstream to 3.18.128 linux-stable
 
