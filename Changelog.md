@@ -1,5 +1,12 @@
 ### Changelog PhilSmith31
 
+### 24.12.2018
+* ROM:
+	* fixed crashing settings - clean flash good and recommended now
+	* removed system updates and jdc on google+ from settings
+* Kernel:
+	* Upstream to 3.18.131 linux-stable
+
 ### 18.12.2018
 * ROM:
 	* upstreamed / moved to caf tag LA.UM.5.5.r1-09000-8x96.0
