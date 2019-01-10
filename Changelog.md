@@ -1,5 +1,12 @@
 ### Changelog PhilSmith31
 
+### 10.01.2019
+* ROM:
+	* January 2019 security updates
+    * Updated blobs to 8.1.18
+    * Clean flash mandatory
+    * Minimal firmware follows blobs update to 8.1.18, but 8.11.22 recommended
+
 ### 24.12.2018
 * ROM:
 	* fixed crashing settings - clean flash good and recommended now
