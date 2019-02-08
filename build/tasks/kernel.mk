@@ -224,7 +224,7 @@ KERNEL_TOOLCHAIN_PREFIX ?= x86_64-linux-androidkernel-
 endif
 
 # set for compiling with linaro (2/2)
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/vendor/aosp/build/tasks/gcc-linaro-7.3.1/bin
+KERNEL_TOOLCHAIN := android/toolchains/gcc-linaro-7.4.1/bin
 
 ifeq ($(KERNEL_TOOLCHAIN),)
 KERNEL_TOOLCHAIN_PATH := $(KERNEL_TOOLCHAIN_PREFIX)
