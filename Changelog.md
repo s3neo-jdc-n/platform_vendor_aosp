@@ -1,5 +1,19 @@
 ### Changelog PhilSmith31
 
+### 08.02.2019
+* ROM:
+    * February 2019 security updates
+* Kernel:
+    * Upstreamed to 3.18.134 linux-stable    
+    * Compiled with new linaro 7.4.1 toolchain
+
+### 20.01.2019
+* ROM:
+    * Added configs for thermal simple from sultanxda
+* Kernel:
+    * Upstreamed to 3.18.132 linux-stable
+    * Implemented thermal simple
+
 ### 10.01.2019
 * ROM:
 	* January 2019 security updates
