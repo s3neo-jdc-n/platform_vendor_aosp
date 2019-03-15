@@ -1,6 +1,17 @@
 ### Changelog PhilSmith31
 
-### 08.02.2019
+### 14.03.2019
+* ROM:
+    * March 2019 security updates
+    * Flashlight long press home button option
+* Kernel:
+    * Upstreamed to 3.18.136 linux-stable
+    * Charge Control (thanks @xNombre)
+        * Fixed qc 3.0
+        * 2500 mA max default
+        * User space access to charging values is possible via @Jonas Cardoso's Floppy Manager
+
+### 09.02.2019
 * ROM:
     * February 2019 security updates
 * Kernel:
